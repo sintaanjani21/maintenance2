@@ -1,0 +1,31 @@
+body {
+	background-color: #FFF84E;
+}
+
+.png {
+	position: absolute;
+    width: 716px;
+	height: 581px;
+    left: 319px;
+    top: 65px;
+}
+
+/*for mobile*/
+@media (max-width: 480px) {
+	.png {
+		width: 94%;
+		height: auto;
+		left: 12px;
+    	top: 74px;
+	}
+}
+
+/*for tablets*/
+@media (min-width: 481px) and (max-width: 1024px) {
+	.png {
+		width: 90%;
+		height: auto;
+		left: 49px;
+    	top: 100px;
+	}
+}
